@@ -1,0 +1,135 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  padding-right: 900px;
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo-1 {
+  max-width: 200px;
+}
+
+.image-1 {
+  max-width: 700px;
+  padding-bottom: 20px;
+}
+
+.image-2 {
+  max-width: 1200px;
+}
+
+.image-3 {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text1 {
+  align-items: stretch;
+  padding-left: 250px;
+  font-size: 30px;
+}
+.text {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.text ul {
+  padding-left: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.contact {
+    background-color: red;
+    color: white;
+    text-align: left;
+    padding: 50px;
+    
+  }
+  
+  .red-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .red-box .left-content,
+  .red-box .middle-content,
+  .red-box .right-content {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+  }
+  
+  .red-box .separator {
+    margin: 0 10px;
+  }
+  
+  .red-box .icon {
+    margin-right: 5px;
+    
+  }
+  
+
+ 
+  
+
+
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  position: relative; /* Add this line */
+}
+
+.red-line {
+  position: absolute;
+  bottom: -10px; /* Adjust this value as needed to position the line */
+  left: 0;
+  width: 100%;
+  height: 2px; /* Adjust thickness as needed */
+  background-color: red;
+}
+
+.additional-content {
+  text-align: center;
+  width: 100%;
+}
+
+.separator {
+  color: red;
+  margin: 0 5px; /* Adjust the spacing as needed */
+}
+
+.icon {
+  margin-right: 5px;
+}
